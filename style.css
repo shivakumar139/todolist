@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+header {
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.logo p {
+  font-size: 23px;
+  padding: 10px 10px 10px 0;
+}
+
+.searchBox input {
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  margin-right: 10px;
+}
+button {
+  background-color: #0026ca;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+}
+button:hover {
+  background-color: #304ffe;
+}
+section {
+  width: 100%;
+  padding: 10px 15%;
+}
+.main {
+  width: 100%;
+}
+h1 {
+  padding: 20px 0px;
+  font-size: 30px;
+}
+.inputArea {
+  max-width: 100%;
+  border: 1.5px solid #eee;
+  padding: 20px;
+}
+.inputArea textarea {
+  width: 100%;
+  resize: row;
+  margin: 20px 0px;
+  border: 1.5px solid #eee;
+  resize: vertical;
+}
+
+.heading {
+  margin: 20px 0px;
+}
+.heading h1 {
+  border-top: 1.5px solid #eee;
+  border-bottom: 1.5px solid #eee;
+}
+#notesDesc {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+.noteContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.noteContainer div {
+  border: 1.5px solid #eee;
+  width: 260px;
+  height: auto;
+  padding: 10px;
+  margin: 15px;
+  word-wrap: break-word;
+  border-radius: 5px;
+}
+.noteContainer div p {
+  padding: 10px 0px;
+}
+.noteContainer a {
+  background-color: red;
+  color: #ffffff;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 4px;
+  float: right;
+}
+/*.noteBox{
+	border: 1.5px solid #eee;
+	width: 250px;
+	padding: 10px;
+}
+.noteBox p{
+	padding: 10px 0px;
+}*/

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Todo List</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <p>Magic Notes</p>
+      </div>
+      <div class="searchBox">
+        <input
+          type="search"
+          name="Search"
+          placeholder="Search Notes"
+          id="searchTxt"
+        />
+      </div>
+    </header>
+
+    <section>
+      <div class="main">
+        <h1>Welcome to Magic Notes</h1>
+        <div class="inputArea">
+          <label>Add a Note</label><br />
+          <textarea rows="4" id="note"></textarea><br />
+          <button type="button" id="addNote">Add Note</button>
+        </div>
+      </div>
+      <div class="heading">
+        <h1>Your Notes</h1>
+      </div>
+
+      <div class="noteContainer" id="noteContainer">
+        <p id="Desc">Nothing to show Use "Add Note" Selection to add notes</p>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
